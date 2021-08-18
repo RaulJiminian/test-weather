@@ -26,7 +26,7 @@ function App() {
         />
         <button type="submit">Search Weather</button>
       </form>
-      <div>
+      <div id="content">
         {weather.name ? (
           <>
             <h2>{weather.name}</h2>
